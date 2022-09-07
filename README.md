@@ -1,6 +1,6 @@
 # Synagogue-Web
 
-To the website [Click Here](https://allthenews.netlify.app/)
+To the website [Click Here](https://synagogue.netlify.app/)
 
 ##---This website was developed by Maor Maharizi---##
 
