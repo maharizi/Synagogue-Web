@@ -1,0 +1,50 @@
+* {
+    /* מרחיב את הבורדר והפדינג כלפי פנים ולא כלפי חוץ כברירת מחדל */
+    box-sizing: border-box;
+}
+
+body {
+    background: silver;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    direction: rtl;
+}
+.container-fluid {
+    width: 100%;
+    padding: 0px 16px;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: 0 auto;
+}
+header{
+    background: rgb(88, 16, 16);
+    min-height: 80px;
+}
+header nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0 12px;
+}
+header nav a:hover {
+    color: gold;
+    text-decoration: underline;
+}
+header .icon{
+    border: none;
+    border-radius: 30px;
+}
+main{
+    color: white;
+    background-image: url(images/בית\ כנסת.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 700px;
+}
+main .container{
+    padding: 64px;
+}
